@@ -39,7 +39,7 @@ export function App() {
     handleSubmit,
     reset,
     formState: { isSubmitting },
-  } = useForm({
+  } = useForm<UsernameSchema>({
     resolver: zodResolver(fetchUserSchema),
   })
 

@@ -35,7 +35,7 @@ export function UsersTableRow({ dataUser, deletedUser }: DataUserProps) {
           <DialogTrigger asChild>
             <Button variant="outline" size="xs">
               <Search className="h-3 w-3" />
-              <span className="sr-only">Detalhes do pedido</span>
+              <span className="sr-only">Lista de repositorio</span>
             </Button>
           </DialogTrigger>
           <ReposDetails username={dataUser.username} />

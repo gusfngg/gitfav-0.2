@@ -29,7 +29,7 @@ export function ReposDetails({ username }: RepostDetails) {
   }, [username])
 
   return (
-    <DialogContent className="h-3/4	w-3/2 rounded-md border">
+    <DialogContent className="h-3/4	 rounded-md border">
       <DialogHeader>
         <DialogTitle>Repositories de {username}</DialogTitle>
       </DialogHeader>
